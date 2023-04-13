@@ -28,18 +28,25 @@ Edit this `README.md` file - answer the BLANK questions before moving on to the 
     C. `var bench = new(24, true);`  
     D. `Chair bench = new(24, true);`  
     
+  AB:  C is not valid, because the variable isn't assigned the class Chair. The class needs to be specified in either way from A, B, and C.
+    
 2. Imagine you are interviewing for your first job.  The interviewer asks "What can you tell me about OOP?".  Write your response below:
-
+AB: OOP is a type of programming languages that is created with objects to organize data. It uses Inheritance, Encapsulation, Abstraction and Polymorphism to organized and relate code. OOP languages have elements such as classes and objects.
 
 3. What is Automated Testing?
-
+Automated testing is a debugging method that is easier and faster then manual testing. It uses a XUnit project to "run" a referenced copy of code to check the primary code. This makes it faster to debug by automating the running of code for the purpose of testing.
 
 4. What are some benefits of creating tests for our projects?
-
+We can spend less time testing code and more time actually making it. Testing also lets us see our code more closely and allows us to figure out specific bugs that need squishing.
 
 5. When you create a test project, you do not immediately have access to the class(es) in the project that you are testing.  What do you need to do in order to have access to those classes?
+We need to set a reference to the main project in the test project. In VS this can be done by right clicking the test project, clicking Add and clicking project reference. The last step is to choode which project you want to reference.
 
 6. Take a look at the class below.  Write out the **names** of each test you would write to verify that this class is working.
+Test 1: CreatedVariables_GetAssigned_CorrectValues, Test 2: Sumary_HasCorrectValues_FromProperties, Test 3: MilesDriven_IsAddedCorrectly, 
+Test 4: Paint_IsChangedCorrectly
+
+
 ```c#
     public class Vehicle
     {
